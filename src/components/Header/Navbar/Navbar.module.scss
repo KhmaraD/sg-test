@@ -1,0 +1,27 @@
+.nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  justify-content: flex-end;
+
+  .list {
+    display: flex;
+  }
+
+  &__item {
+    margin: 2px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  a {
+    padding: 0 5px;
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+    font-size: 18px;
+  }
+}

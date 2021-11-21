@@ -1,0 +1,43 @@
+.formWrapper {
+  display: flex;
+  justify-content: center;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 250px;
+    font-size: 18px;
+    margin-top: 20px;
+
+    label {
+      margin-top: 3px;
+    }
+
+    input {
+      margin: 2px auto;
+      width: 200px;
+    }
+
+    button {
+      width: 100px;
+      margin: 3px auto;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        color: #66A6B8;
+      }
+    }
+
+    input, button {
+      border-radius: 6px;
+      padding: 5px;
+    }
+
+    .error {
+      color: red;
+      font-size: 12px;
+    }
+  }
+}

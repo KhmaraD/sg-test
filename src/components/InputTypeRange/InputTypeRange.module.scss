@@ -1,0 +1,15 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 20px auto;
+
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  input {
+    margin: 0 auto;
+    width: 200px;
+  }
+}

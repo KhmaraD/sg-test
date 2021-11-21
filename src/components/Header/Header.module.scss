@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-around;
+
+    .logoWrapper {
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+
+        .logo {
+            max-height: 50px;
+        }
+    }
+}
+
+
+
